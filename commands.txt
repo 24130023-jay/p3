@@ -1,0 +1,5 @@
+ls -l capture.pcapng
+
+sudo chown $USER:$USER capture.pcapng
+chmod 644 capture.pcapng
+python3 p3.py
